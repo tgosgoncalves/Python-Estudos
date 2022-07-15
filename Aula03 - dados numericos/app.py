@@ -1,14 +1,16 @@
 num1 = 5
 num2 = 3.5
 
-print(type(num1))
-print(type(num2))
-
-a = float(5)
-print(a)
-print(type(a))
-
+a = float(num1)
 b = int(num2)
-print(b)
-print(type(b))
+
+a = int(float("5.3"))
+b = "3.5"
+
+print(num1 + num2)
+print(num1 - num2)
+print(num1 * num2)
+print(num1 / num2)
+print(num1 ** num2)
+print(num1 // num2)
 
