@@ -40,4 +40,7 @@ fabrica[3] = 'Lolo' #- pode ser usado para alterar um item
 #print(fabrica2)
 #print(fabrica)
 
-#
+#TUPLES
+
+coordenadas = (-49,-36) # - basicamente é como uma lista que não pode ser alterada
+print(coordenadas.count(-49))
