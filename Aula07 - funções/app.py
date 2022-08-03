@@ -3,8 +3,11 @@
 
 #big_mec()
 
+def cliente(nome1):
+    print(f'Cliente: {nome1}')
+
 def fazer_big_mec(nome):
-    print(f'Sanduiche: Big Mec {nome}')
+    print(f'Sanduiche: {nome}')
 
 def fritar_batata(tamanho):
     print(f'Batata: {tamanho}')
@@ -19,8 +22,9 @@ def preparar_bebida(tipo,tamanho):
 
 def combo1(nome, tamanho_batata, tipo_bebida, tamanho_bebida):
 
-    fazer_big_mec('Tiago')
+    cliente('Tiago')
+    fazer_big_mec('Big Mec')
     fritar_batata('Grande')
     preparar_bebida('Suco', 'grande')
 
-combo1('Tiago', 'Grande', 'Suco', 'grande')
+combo1('Tiago', 'Big Mec' 'Grande', 'Suco', 'grande')
