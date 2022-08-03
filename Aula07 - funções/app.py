@@ -51,5 +51,14 @@ def preparar_bebida(tipo,tamanho):
 def soma_num(num1, num2):
     return num1 + num2
 
-resultado = soma_num(10,10)
+#resultado = soma_num(10,10)
+#print(resultado)
+
+def maior_num(lista_num):
+    lista_num.sort() #ordena do maior para o menor
+    lista_num.reverse() #inverte a lista
+    maior_num = lista_num[0] #pega o primeiro indice
+    return maior_num
+
+resultado = maior_num([333, -5, 10, 222, 555, 777])
 print(resultado)
